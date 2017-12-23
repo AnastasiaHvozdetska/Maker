@@ -63,7 +63,7 @@ body {
 			background-color: #191e3f;
 			.row {
 				height: 100vh;
-				.col-3 {
+				.col-md-3 {
 					color: #fff;
 					text-align: right;
 					position: relative;
@@ -87,7 +87,7 @@ body {
 					}
 				}
 			}
-			.col-6 {
+			.col-md-6 {
 				position: relative;
 				.img-fluid {
 					filter:contrast(200%) saturate(2) brightness(100%) ;
@@ -226,6 +226,7 @@ body {
 					background-repeat: no-repeat;
 					z-index: 100;
 					background-position: top right;
+					cursor: pointer;
 				}
 				.person-description {
 					color: white;
@@ -345,11 +346,11 @@ body {
 					font-weight: 100;
 				}
 				.letter {
-					color: #3c448e;
+					color: #fff;
 					font-family: 'Raleway', sans-serif;
 					font-size: 60em;
 					position: absolute;
-					opacity: 0.2;
+					opacity: 0.1;
 					font-weight: 900;
 					top: 60%;
 					left: 80%;
@@ -378,4 +379,7 @@ body {
 			font-family: 'Raleway', sans-serif;
 		}
 	}
+}
+@media screen and (min-width: 480px) {
+	
 }

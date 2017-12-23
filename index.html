@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Maker</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+     <link rel="stylesheet" href="./css/animate.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Yantramanav:400,900" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+   
+    <script src="./js/wow.min.js"></script>
+	<script>new WOW().init();</script>
 </head>
 
 <body>
@@ -51,22 +54,22 @@
                 </div>
             </nav>
 
-            <span class="display-4 animated fadeIn">we build innovative companies</span>
+            <h1 class="display-4 wow fadeIn">we build innovative companies</h1>
         </div>
     </header>
     <main>
         <section id="mission">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-3">
+                    <div class="col-md-3 zoomIn wow">
                         <h2 class="number-1">01</h2>
                         <span class="vertical-text">mission</span>
                     </div>
-                    <div class="col-6 p-0 animated fadeIn">
-                        <img src="./images/mountains.jpg" alt="" class="img-fluid">
+                    <div class="col-md-6 p-0">
+                        <img src="./images/mountains.jpg" alt="" class="img-fluid" >
                         <div class="img-bg"></div>
                     </div>
-                    <div class="col">
+                    <div class="col fadeInRight wow">
                         <div class="text">
                             <p>
                                 Is allowance instantly strangers applauded discourse so. Separate entrance welcomed sensible laughing why one moderate shy. We seeing piqued garden he. As in merry at forth least ye stood.
@@ -97,7 +100,7 @@
                             <img src="./images/badminton.png" alt="" class="img-fluid">
                         </a>
                     </div>
-                    <div class="col position-relative text-right">
+                    <div class="col position-relative text-right zoomIn wow">
                         <h2 class="number-2">02</h2>
                         <span class="vertical-text">projects</span>
                     </div>
@@ -128,14 +131,14 @@
         <section id="team">
             <div class="container team-wrapper">
                 <div class="row justify-content-around position-relative first-row">
-                    <div class="col-3 p-0">
+                    <div class="col-3 p-0 zoomIn wow">
                         <span class="number-3">03</span>
                         <span class="vertical-text">team</span>
                     </div>
-                    <div class="col-6 person1">
+                    <div class="col-6 person1 zoomIn wow" data-wow-duration="2s" data-wow-offset="10">
 
                     </div>
-                    <div class="person-description">
+                    <div class="person-description fadeInLeft wow">
                         <h3>George M. Bryson</h3>
                         <span class="post">Founder & Group CEO</span>
                         <p>
@@ -147,7 +150,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-start position-relative second-row">
-                    <div class="col-5 person2">
+                    <div class="col-5 person2 fadeInLeft wow" data-wow-duration="2s">
                         <div class="person-description">
                             <h3>Kenneth G. Gilmor</h3>
                             <span class="post">Founder & Group CEO</span>
@@ -156,7 +159,7 @@
 
                 </div>
                 <div class="row justify-content-end position-relative third-row">
-                    <div class="col-5 person3">
+                    <div class="col-5 person3 fadeInRight wow" data-wow-duration="2s">
                         <div class="person-description">
                             <h3>Richard C. Main</h3>
                             <span class="post">Marketing & Communication manager</span>
@@ -164,7 +167,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-start position-relative fourth-row">
-                    <div class="col-5 person4">
+                    <div class="col-5 person4 fadeInLeft wow" data-wow-duration="2s">
                         <div class="person-description">
                             <h3>Judith R. Flynn</h3>
                             <span class="post">International Execultive Director</span>
@@ -172,7 +175,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-end position-relative fifth-row">
-                    <div class="col-5 person5">
+                    <div class="col-5 person5 fadeInRight wow" data-wow-duration="2s">
                         <div class="person-description">
                             <h3>Donald S. Tomphson</h3>
                             <span class="post">Marketing & Communication manager</span>
@@ -187,13 +190,13 @@
         <section id="emotions">
             <div class="container emotions-wrapper">
                 <div class="row justify-content-center">
-                    <div class="col-3 p-0">
+                    <div class="col-3 p-0 zoomIn wow">
                         <span class="number-4">04</span>
                         <span class="vertical-text">event</span>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-5 text">
+                    <div class="col-5 text fadeInLeft wow" data-wow-duration="2s">
                         <h2>Feel emotions</h2>
                         <p>
                             One purse as fully me or point. Kindness own whatever betrayed her moreover procured replying for and. Proposal indulged no do do sociable he throwing settling. Covered ten nor comfort offices carried.
@@ -244,17 +247,17 @@
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
+
     <script>
         jQuery(document).ready(function($) {
-            var topOffSet = $(".first-row").offset().top + $(".first-row").outerHeight(true);
-            var heroHeight = $(".person-description").height();
-            var delta = (topOffSet - heroHeight) + 140;
-            $(".second-row").css("padding-top, 200");
-            console.log("hello");
+     	
         });
     </script>
 </body>

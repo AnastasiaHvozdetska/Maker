@@ -54,16 +54,16 @@ body {
       background-color: #191e3f; }
       body main #mission .row {
         height: 100vh; }
-        body main #mission .row .col-3 {
+        body main #mission .row .col-md-3 {
           color: #fff;
           text-align: right;
           position: relative; }
-          body main #mission .row .col-3 .number-1 {
+          body main #mission .row .col-md-3 .number-1 {
             font-size: 188px;
             font-family: 'Yantramanav', sans-serif;
             font-weight: 900;
             opacity: 0.1; }
-          body main #mission .row .col-3 .vertical-text {
+          body main #mission .row .col-md-3 .vertical-text {
             position: absolute;
             transform: rotate(-90deg);
             transform-origin: center center 0;
@@ -74,12 +74,12 @@ body {
             font-weight: 100;
             letter-spacing: 1px;
             opacity: 0.8; }
-      body main #mission .col-6 {
+      body main #mission .col-md-6 {
         position: relative; }
-        body main #mission .col-6 .img-fluid {
+        body main #mission .col-md-6 .img-fluid {
           filter: contrast(200%) saturate(2) brightness(100%);
           filter: lighten; }
-        body main #mission .col-6 .img-bg {
+        body main #mission .col-md-6 .img-bg {
           position: absolute;
           background-blend-mode: color-dodge;
           background-image: -webkit-linear-gradient(#191e3e 0%, rgba(25, 30, 62, 0.51) 100%);
@@ -194,7 +194,8 @@ body {
           background-size: cover;
           background-repeat: no-repeat;
           z-index: 100;
-          background-position: top right; }
+          background-position: top right;
+          cursor: pointer; }
         body main #team .team-wrapper .person-description {
           color: white;
           position: absolute;
@@ -292,11 +293,11 @@ body {
           font-family: 'Raleway', sans-serif;
           font-weight: 100; }
         body main #emotions .emotions-wrapper .letter {
-          color: #3c448e;
+          color: #fff;
           font-family: 'Raleway', sans-serif;
           font-size: 60em;
           position: absolute;
-          opacity: 0.2;
+          opacity: 0.1;
           font-weight: 900;
           top: 60%;
           left: 80%;
