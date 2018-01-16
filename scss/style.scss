@@ -61,6 +61,7 @@ body {
 		#mission {
 			height: 100vh;
 			background-color: #191e3f;
+			overflow: hidden;
 			.row {
 				height: 100vh;
 				.col-md-3 {
@@ -127,7 +128,8 @@ body {
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-image: linear-gradient( rgb(0, 0, 2) 5%, rgba(25, 30, 62, 0.55) 10%), url(../images/projects-background.png);
-			background-blend-mode:color-dodge;	
+			background-blend-mode:color-dodge;
+			overflow: hidden;
 			.projects-wrapper {
 				height: 100vh;
 				display: flex;
@@ -183,6 +185,7 @@ body {
 			position: relative;
 			padding-top: 100px;
 			background-image:  linear-gradient(to bottom, #1B204A 15%, #191E3F 100%);
+			overflow: hidden;
 			.letter {
 				color: #3c448e;
 				font-family: 'Raleway', sans-serif;
@@ -316,7 +319,8 @@ body {
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-image: linear-gradient(to bottom, rgb(6, 6, 25) 15%, rgb(25, 30, 62) 100%),  url(../images/emotio-bg.jpg);
-			background-blend-mode: color-dodge;	
+			background-blend-mode: color-dodge;
+			overflow: hidden;
 			.number-4 {
 				font-size: 288px;
 				font-family: 'Yantramanav', sans-serif;
@@ -379,7 +383,4 @@ body {
 			font-family: 'Raleway', sans-serif;
 		}
 	}
-}
-@media screen and (min-width: 480px) {
-	
 }

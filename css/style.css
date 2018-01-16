@@ -51,7 +51,8 @@ body {
     width: 100%; }
     body main #mission {
       height: 100vh;
-      background-color: #191e3f; }
+      background-color: #191e3f;
+      overflow: hidden; }
       body main #mission .row {
         height: 100vh; }
         body main #mission .row .col-md-3 {
@@ -109,7 +110,8 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
       background-image: linear-gradient(#000002 5%, rgba(25, 30, 62, 0.55) 10%), url(../images/projects-background.png);
-      background-blend-mode: color-dodge; }
+      background-blend-mode: color-dodge;
+      overflow: hidden; }
       body main #projects .projects-wrapper {
         height: 100vh;
         display: flex;
@@ -156,7 +158,8 @@ body {
       height: 2500px;
       position: relative;
       padding-top: 100px;
-      background-image: linear-gradient(to bottom, #1B204A 15%, #191E3F 100%); }
+      background-image: linear-gradient(to bottom, #1B204A 15%, #191E3F 100%);
+      overflow: hidden; }
       body main #team .letter {
         color: #3c448e;
         font-family: 'Raleway', sans-serif;
@@ -266,7 +269,8 @@ body {
       background-repeat: no-repeat;
       background-size: cover;
       background-image: linear-gradient(to bottom, #060619 15%, #191e3e 100%), url(../images/emotio-bg.jpg);
-      background-blend-mode: color-dodge; }
+      background-blend-mode: color-dodge;
+      overflow: hidden; }
       body main #emotions .number-4 {
         font-size: 288px;
         font-family: 'Yantramanav', sans-serif;
